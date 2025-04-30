@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function Home() {
-  const key = "e40ac2f4af58fd128d8a5a4af2500401";
+  const key = "";
   const url_tv = `https://api.themoviedb.org/3/discover/tv?api_key=${key}&language=tr-TR&page=1&with_genres=16&with_keywords=210024|287501&sort_by=vote_average.desc&include_adult=false&vote_count.gte=1000`;
   const url_movie = `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=tr-TR&page=1&with_genres=16&with_keywords=210024|287501&sort_by=vote_average.desc&include_adult=false&vote_count.gte=1000`;
 
